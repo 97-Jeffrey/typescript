@@ -1,3 +1,10 @@
-//num is first assigned a number, so it should not be assigned into a string
-let num = 10;
-num = 'haha';
+
+const ColorRed = 0;
+const ColorGreen = 1;
+const ColorBlue = 2;
+
+enum Color {Red, Green, Blue}
+
+let backgroundColor = Color.Red;
+
+
