@@ -18,4 +18,11 @@ var Color;
 })(Color || (Color = {}));
 ;
 var backgroundColor = Color.Blue;
-console.log(backgroundColor);
+var E1;
+(function (E1) {
+    E1[E1["X"] = 1] = "X";
+    E1[E1["Y"] = 2] = "Y";
+    E1[E1["Z"] = 3] = "Z";
+})(E1 || (E1 = {}));
+;
+console.log(E1.Z);

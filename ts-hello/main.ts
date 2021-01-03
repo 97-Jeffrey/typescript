@@ -16,5 +16,11 @@ const ColorBlue=2;
 
 enum Color { Red, Green, Blue };
 let backgroundColor=Color.Blue;
-console.log(backgroundColor)
+
+enum E1{
+  X=1,
+  Y,
+  Z
+};
+console.log(E1.Z)
 
