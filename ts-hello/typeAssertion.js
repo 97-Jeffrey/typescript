@@ -1,6 +1,5 @@
-"use strict";
-exports.__esModule = true;
-var message;
+let message;
 message = 'abc';
-var endsWithC = message.endsWith('c');
-var alternativeWay = message.endsWith('c');
+let endsWithC = message.endsWith('c');
+let alternativeWay = message.endsWith('c');
+export {};
